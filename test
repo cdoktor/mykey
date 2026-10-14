@@ -1,0 +1,37 @@
+ ssh root@103.23.119.218 -vvv | tail -40
+debug1: OpenSSH_10.5p1, OpenSSL 3.6.5 29 Sep 2026
+debug3: Running on Linux 7.2.8-arch1-2 #1 SMP PREEMPT_DYNAMIC Thu, 01 Oct 2026 17:24:20 +0000 x86_64
+debug3: Started with: ssh root@103.23.119.218 -vvv
+debug1: Reading configuration data /home/cdoktor/.ssh/config
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug3: /etc/ssh/ssh_config line 2: Including file /etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf depth 0
+debug1: Reading configuration data /etc/ssh/ssh_config.d/20-systemd-ssh-proxy.conf
+debug2: resolve_canonicalize: hostname 103.23.119.218 is address
+debug3: expanded UserKnownHostsFile '~/.ssh/known_hosts' -> '/home/cdoktor/.ssh/known_hosts'
+debug3: expanded UserKnownHostsFile '~/.ssh/known_hosts2' -> '/home/cdoktor/.ssh/known_hosts2'
+debug1: loaded pubkey from /home/cdoktor/.ssh/id_rsa: RSA SHA256:suNH7gG3l1eelVooeGcoRLmTstn60bpNk1P+m6v3rYk
+debug1: identity file /home/cdoktor/.ssh/id_rsa type 0
+debug1: no identity pubkey loaded from /home/cdoktor/.ssh/id_rsa
+debug1: no pubkey loaded from /home/cdoktor/.ssh/id_ecdsa
+debug1: identity file /home/cdoktor/.ssh/id_ecdsa type -1
+debug1: no identity pubkey loaded from /home/cdoktor/.ssh/id_ecdsa
+debug1: no pubkey loaded from /home/cdoktor/.ssh/id_ecdsa_sk
+debug1: identity file /home/cdoktor/.ssh/id_ecdsa_sk type -1
+debug1: no identity pubkey loaded from /home/cdoktor/.ssh/id_ecdsa_sk
+debug1: loaded pubkey from /home/cdoktor/.ssh/id_ed25519: ED25519 SHA256:7zTooxVN7g2OD50MGeJE6pKSJ3U+AfBeCa8svou8t2s
+debug1: identity file /home/cdoktor/.ssh/id_ed25519 type 2
+debug1: no identity pubkey loaded from /home/cdoktor/.ssh/id_ed25519
+debug1: no pubkey loaded from /home/cdoktor/.ssh/id_ed25519_sk
+debug1: identity file /home/cdoktor/.ssh/id_ed25519_sk type -1
+debug1: no identity pubkey loaded from /home/cdoktor/.ssh/id_ed25519_sk
+debug1: no pubkey loaded from /home/cdoktor/.ssh/id_mldsa44_ed25519
+debug1: identity file /home/cdoktor/.ssh/id_mldsa44_ed25519 type -1
+debug1: no identity pubkey loaded from /home/cdoktor/.ssh/id_mldsa44_ed25519
+debug3: channel_clear_timeouts: clearing
+debug3: ssh_connect_direct: entering
+debug1: Connecting to 103.23.119.218 [103.23.119.218] port 22.
+debug3: set_sock_tos: set socket 3 IP_TOS 0xb8
+debug1: Connection established.
+debug1: Local version string SSH-2.0-OpenSSH_10.5
+kex_exchange_identification: read: Connection reset by peer
+Connection reset by 103.23.119.218 port 22
